@@ -1,0 +1,17 @@
+1.InetAddress   封装IP和DNS 未封装端口
+    1)创建(该类对外不公开构造方法)
+        InetAddress.getLocalhost()
+        InetAddress.getByName("ip地址|域名")
+
+    2)方法
+        getHostAddress()    返回IP地址
+        getHostName()       返回域名|本机为计算机名
+
+2.InetSocketAddress 封装端口
+    1)创建
+        InetSocketAddress(InetAddress addr, int port)   根据ip和端口创建
+        InetSocketAddress(String hostname, int port)    根据域名和端口创建
+    2)方法
+        String getAddress()          获取 IP
+        String getHostName()         获取 hostname
+        int getPort()                获取端口号
