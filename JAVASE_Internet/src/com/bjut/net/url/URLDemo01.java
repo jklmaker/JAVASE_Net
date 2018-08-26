@@ -6,8 +6,8 @@ import java.net.URL;
 public class URLDemo01 {
     public static void main(String[] args) throws MalformedURLException {
         //绝对路径构建
-        URL url = new URL("http://www.baidu.com:80/index.html#aa?username=zs");
-     //     URL url = new URL("http://www.baidu.com:80/index.html?username=zs");
+      //  URL url = new URL("http://www.baidu.com:80/index.html#aa?username=zs");
+          URL url = new URL("http://www.baidu.com:80/index.html?username=zs&password=123");
 //        url = new URL("http://www.bilibili.com:80/aaa/");
 //        url = new URL(url, "/b.txt");       //相对路径构建
 //        System.out.println(url.toString());

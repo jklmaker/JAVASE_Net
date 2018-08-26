@@ -8,7 +8,7 @@ import java.net.*;
  */
 public class URLDemo02 {
     public static void main(String[] args) throws IOException {
-        URL url = new URL("http://www.baidu.com");       //主页 默认资源
+        URL url = new URL("https://www.cnblogs.com/midiyu/p/7875574.html");       //主页 默认资源
 
 //        InputStream in = url.openStream();
 //        byte[] buffer = new byte[1024];

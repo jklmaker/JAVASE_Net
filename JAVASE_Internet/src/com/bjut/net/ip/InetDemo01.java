@@ -15,6 +15,7 @@ public class InetDemo01 {
         //获取本机名
         System.out.println(inetAddress.getHostName());
 
+        System.out.println(inetAddress.getCanonicalHostName());
         System.out.println("===============");
 
         inetAddress = InetAddress.getByName("www.bilibili.com");
